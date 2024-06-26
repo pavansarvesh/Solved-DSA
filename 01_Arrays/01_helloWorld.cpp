@@ -3,8 +3,8 @@
 
 int main()
 {
-    std::cout<<"Hello World"<<std::endl;
+    std::cout << "Hello World" << std::endl;
     printf("Hello World\n");
     unsigned int a = -14;
-    std::cout<< a ;
+    std::cout << a;
 }

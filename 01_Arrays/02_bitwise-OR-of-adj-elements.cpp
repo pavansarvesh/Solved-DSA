@@ -26,7 +26,4 @@ int main()
     {
         std::cout << arr1[i] << " ";
     }
-
-
-
 }

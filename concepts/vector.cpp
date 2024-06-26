@@ -9,9 +9,7 @@ References :
 #include <vector>
 using namespace std;
 
-
 // Vector is a Dynamic array
-
 
 void main()
 {

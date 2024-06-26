@@ -42,10 +42,10 @@ public:
     vector<int> getConcatenation(vector<int> &nums)
     {
         vector<int> ans(2 * nums.size());
-        for(int i = 0; i < nums.size();i++)
+        for (int i = 0; i < nums.size(); i++)
         {
             ans[i] = nums[i];
-            ans[i+nums.size()] = nums[i];
+            ans[i + nums.size()] = nums[i];
         }
         return ans;
     }
@@ -54,9 +54,9 @@ public:
 int main()
 {
     Solution myArray;
-    vector<int> array = {1,2,3};
+    vector<int> array = {1, 2, 3};
     array = myArray.getConcatenation(array);
-    for (int i :array)
+    for (int i : array)
     {
         cout << i << " ";
     }
