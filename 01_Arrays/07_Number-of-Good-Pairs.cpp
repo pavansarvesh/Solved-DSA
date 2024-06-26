@@ -28,7 +28,7 @@ Constraints:
 1 <= nums[i] <= 100
 */
 
-//code
+// code
 #include <iostream>
 #include <vector>
 using namespace std;
