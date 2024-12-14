@@ -7,6 +7,7 @@ struct node {
 };
 
 typedef struct node NODE;
+
 NODE *head, *first, *temp;
 int count = 0;
 int choice = 1;

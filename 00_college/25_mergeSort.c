@@ -1,11 +1,14 @@
 #include <stdio.h>
+
 #define MAX 100
+
 void printArray(int arr[], int low, int high) {
     for (int i = low; i <= high; i++) {
         printf("%d ", arr[i]);
     }
     printf("\n");
 }
+
 void merge(int arr[], int low, int mid, int high) {
     int temp[MAX];
     int i = low, k = low, j = mid + 1;

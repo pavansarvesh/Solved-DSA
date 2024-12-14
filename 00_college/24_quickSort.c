@@ -74,3 +74,5 @@ int main() {
 
     return 0;
 }
+// best case O(n log n)
+// worst case O(n^2)
